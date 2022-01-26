@@ -1,7 +1,7 @@
 # Basic Sample Hardhat Project
 
 This project demonstrates a basic Hardhat use case of
-a simple soliditiy contract with basic matarithmetic functions
+a simple soliditiy contract with basic arithmetic functions
 along with a corresponding test script
 
 Notworthy files
