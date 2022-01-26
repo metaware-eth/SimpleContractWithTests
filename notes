@@ -1,0 +1,8 @@
+Compile Contracts
+	npx hardhat compile
+
+Test Contracts
+	npx hardhat test
+
+Run a Script
+	npx hardhat run <path-to>/<script-name>
