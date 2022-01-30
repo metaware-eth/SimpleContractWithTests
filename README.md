@@ -1,18 +1,32 @@
-# Basic Sample Hardhat Project
+# SimpleContractWithTests
+## About The Project
 
-This project demonstrates a basic Hardhat use case of
-a simple soliditiy contract with basic arithmetic functions
-along with a corresponding test script
+This project is an example Smart Contract for the Ethereum network. This contract performs basic arithmetic opporations which are validated on the blockchain.
 
-Notworthy files
-```shell
-contracts/NumberTracker.sol
-tests/number-tracker-tests.js
+### Built With
+
+* [Solidity](https://docs.soliditylang.org/en/v0.8.11/)
+* [Hardhat](https://hardhat.org/)
+* [Remix](http://remix.ethereum.org/)
+* [Node](https://www.npmjs.com/)
+* [Chai Assertion](https://www.chaijs.com/)
+
+### Prerequisites
+
+```sh
+# NPM
+npm install npm@latest -g
+npm init --yes
+
+# Hardhat
+npm install --save-dev hardhat
+npx hardhat
+npm install --save-dev @nomiclabs/hardhat-ethers ethers @nomiclabs/hardhat-waffle ethereum-waffle chai
 ```
 
-Noteworthy commands
-```shell
+### Run
+
+```sh
 npx hardhat compile
 npx hardhat test
-npx hardhat help
 ```
